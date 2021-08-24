@@ -1,0 +1,4 @@
+firstString = input()
+secondString = firstString[::-1]
+if firstString.lower() == secondString.lower():print('TRUE')
+else:print('FALSE')
